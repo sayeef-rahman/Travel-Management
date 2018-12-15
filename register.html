@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style_login.css">
+<head>
+	<title>Travel Registration</title>
+</head>
+<body>
+	<div class="Logout_menu"> 
+		<a href="login.html" style="text-decoration:none; color: white;"><p>Login</p></a>
+	</div>
+	<div class="reg login ">
+	<h1>Register Here</h1>
+		<form method="post" action="register.php">
+			<label>Name:</label>
+			<input type="text" name="name" required="required"/><br>
+
+			<label>Phone:</label>
+			<input  type="text" name="mobile" placeholder="must be 11 digit" required="required"/><br>
+
+			<label>Occupation:</label>
+			<input type="text" name="occupation" required="required"/><br>
+
+			<label>Social:</label>
+			<input type="text" name="link" placeholder="facebook profile link....." required="required"/><br>
+
+			<label>Password:</label>
+			<input type="Password" name="pass" placeholder="Password must be 8 character" required="required"/><br>
+
+			<button class="btn btn-primary btn-block btn-large" type="submit" name="submit" value="register">Register</button><br>
+		</form>
+</div>
+</body>
+</html>
